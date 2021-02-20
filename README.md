@@ -23,8 +23,7 @@ filebeat setup
 
 The output should look like this:
 
-![Filebeat](Images/Filebeat.png
-)
+![Filebeat](Images/Filebeat.png)
 #
 ### Setup Metricbeat
 #
@@ -35,8 +34,7 @@ metricbeat setup
 ```
 The output should look like this:
 
-![Metricbeat](Images/metricbeat.png
-)
+![Metricbeat](Images/metricbeat.png)
 #
 ### Setup Packetbeat
 #
@@ -59,8 +57,7 @@ These restart commands should not give any output:
 
 This how to check if Kibana is running:
 
-![Kibana_check](Images/Kibana_check.png
-)
+![Kibana_check](Images/kibana_check.png)
 
 #
 
@@ -76,6 +73,7 @@ You will need to use the following tools, in no particular order:
 * Metasploit
 * curl
 * MSVenom
+
 #
 
 # Setup
