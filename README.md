@@ -91,56 +91,58 @@ Complete the following to find the flag:
 
 * Discover the IP address of the Linux web server.
  
- ![nmap](images/nmap.png)
+ ![nmap](Images/nmap.png)
  
 * Locate the hidden directory on the web server.
    * Hint: Use a browser to see which web pages will load, and/or use a tool like dirb to find URLs on the target site.
 
-![dirb](images/dirb.png)
-![Index](Images)
-![Target_Site_Team](images/target_site_team.png)
+![dirb](Images/dirb.png)
+![Index](Images/index.png)
+
+![Target_Site_Team](Images/target_site_team.png)
+![Ashton_Page](Images/ashton_page.png)
 
 * Brute force the password for the hidden directory using the hydra command:
    * Hint: You may need to use gunzip to unzip rockyou.txt.gz before running Hydra.
 
-![Gunzip](images/gunzip.png)
+![Gunzip](Images/gunzip.png)
 
 * Hint: hydra -l <username> -P <wordlist> -s <port> -f -vV <victim.server.ip.address> http-get <path/to/secret/directory>
 
-![Hydra](images/hydra.png)
-![Password](images/ashton_password.png)
-![Secret_Folder](images/secret_folder.png)
-![Secret_Folder_Notes](images/secret_folder_notes.png)
+![Hydra](Images/hydra.png)
+![Password](Images/ashton_password.png)
+![Secret_Folder](Images/secret_folder.png)
+![Secret_Folder_Notes](Images/secret_folder_notes.png)
 
 * Break the hashed password with the Crack Station website or John the Ripper.
 
-![Hash_Result](images/hash_crack_result.png)
+![Hash_Result](Images/hash_crack_result.png)
 
 * Connect to the server via WebDav.
    * Hint: Look for WebDAV connection instructions in the file located in the secret directory. Note that these instructions may have an old IP Address in them, you will need to use the IP address you have discovered.
 
-![Webdav_Instructions](images/instruction_webdav.png)
-![Webdav](images/webdav.png)
+![Webdav_Instructions](Images/instruction_webdav.png)
+![Webdav](Images/webdav.png)
 
 * Upload a PHP reverse shell payload.
    * Hint: Try using your scripting skills! MSVenom may also be helpful.
 
-![Multi_Handler_Setup](images/multi_handler_setup.png)
-![Msfvenum_Command](images/msfvenum.png)
+![Multi_Handler_Setup](Images/multi_handler_setup.png)
+![Msfvenum_Command](Images/msfvenum.png)
 
 ***Above you created the shell with that command in downloads in the screenshot below you are moving it to the website
 
-![Transferring_Shell](images/transfer_shell.png) 
-![Webdav_Website](images/webdav_website.png)
+![Transferring_Shell](Images/transfer_shell.png) 
+![Webdav_Website](Images/webdav_website.png)
 
 * Execute payload that you uploaded to the site to open up a meterpreter session.
 
 ***To activate the session you must click on the Shell.php and go back to the first window where you strted the payload. Correct execution shows up like this:
  
-![Status_Meterpreter](images/meterpreter_status.png)
+![Status_Meterpreter](Images/meterpreter_status.png)
 
 * Find and capture the flag.
 
-![Flag](images/flag.png)
+![Flag](Images/flag.png)
 
 #
