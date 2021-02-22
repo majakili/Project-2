@@ -23,7 +23,7 @@ filebeat setup
 
 The output should look like this:
 
-![Filebeat](Images/Filebeat.png)
+![Filebeat](Images/filebeat.png)
 #
 ### Setup Metricbeat
 #
