@@ -97,6 +97,7 @@ Complete the following to find the flag:
    * Hint: Use a browser to see which web pages will load, and/or use a tool like dirb to find URLs on the target site.
 
 ![dirb](images/dirb.png)
+![Index](Images)
 ![Target_Site_Team](images/target_site_team.png)
 
 * Brute force the password for the hidden directory using the hydra command:
