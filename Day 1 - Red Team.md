@@ -142,7 +142,7 @@ Complete the following to find the flag:
 ![Status_Meterpreter](Images/meterpreter_status.png)
 
 * Find and capture the flag.
-
+ 
 ![Flag](Images/flag.png)
 
 #
