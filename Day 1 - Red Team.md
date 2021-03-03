@@ -97,10 +97,14 @@ Complete the following to find the flag:
    * Hint: Use a browser to see which web pages will load, and/or use a tool like dirb to find URLs on the target site.
 
 ![dirb](Images/dirb.png)
+<<<<<<< HEAD:Day 1 - Red Team.md
 ![Index](Images/index.png)
 
 ![Target_Site_Team](Images/target_site_team.png)
 ![Ashton_Page](Images/ashton_page.png)
+=======
+![Target_Site_Team](Images/target_site_team.png)
+>>>>>>> a525b4392a7115cfa58b4f194e3d8674210f65ef:README.md
 
 * Brute force the password for the hidden directory using the hydra command:
    * Hint: You may need to use gunzip to unzip rockyou.txt.gz before running Hydra.
@@ -142,7 +146,11 @@ Complete the following to find the flag:
 ![Status_Meterpreter](Images/meterpreter_status.png)
 
 * Find and capture the flag.
+<<<<<<< HEAD:Day 1 - Red Team.md
  
+=======
+
+>>>>>>> a525b4392a7115cfa58b4f194e3d8674210f65ef:README.md
 ![Flag](Images/flag.png)
 
 #
